@@ -27,7 +27,4 @@
   p {
     color: white;
   }
-
-  @media (max-width: 840px) {
-  }
 </style>

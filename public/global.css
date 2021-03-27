@@ -66,7 +66,8 @@ a:visited {
   align-self: start;
   padding: 1em 2em;
   background: gold;
-  color: #333;
+  color: #333 !important;
+  font-weight: bold;
   text-align: center;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.24);
