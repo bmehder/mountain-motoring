@@ -2,8 +2,17 @@
   <h3>Support Local Charities</h3>
   <p>
     Come drive the mountains, share your interest in cars with others, and help
-    us support our local charities: The Literacy and Learning Center, REACH of
-    Macon County, Community Care Clinic.
+    us support our local charities: <a
+      href="https://www.maconncliteracy.org/home.html"
+      >The Literacy and Learning Center</a
+    >,
+    <a href="https://www.reachofmaconcounty.org/" target="_blank"
+      >REACH of Macon County</a
+    >,
+    <a
+      href="https://ncafcc.org/property/community-care-clinic-of-highlands-cashiers-inc/"
+      target="_blank">Community Care Clinic</a
+    >.
   </p>
 
   <p>
@@ -11,7 +20,7 @@
     an all-volunteer group of classic car enthusiasts.
   </p>
 
-  <a class="btn" href>Donate</a>
+  <a class="btn" href="https://highlandsmotoringfestival.com/donate/">Donate</a>
 </article>
 
 <style>
@@ -32,6 +41,10 @@
   }
   a {
     margin-top: 1em;
+    color: #154e1c;
+  }
+  a:hover {
+    border-bottom: 1px solid #154e1c;
   }
   @media (max-width: 840px) {
     article {

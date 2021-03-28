@@ -42,7 +42,7 @@
     color: gold;
   }
   h3 {
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 1.5em;
   }
   @media (max-width: 840px) {

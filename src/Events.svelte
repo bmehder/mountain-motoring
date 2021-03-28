@@ -6,17 +6,26 @@
       <small>Driving Tours</small>
     </h3>
 
+    <figure>
+      <img
+        src="https://source.unsplash.com/random/1"
+        alt="One Lap of the Mountains"
+      />
+    </figure>
+
     <h4>Friday, September 10, 2021</h4>
     <p>
       A shorter version of One Lap of the Mountains. Like the original,
       extremely popular One Lap of the Mountains, this event is a mountain
       driving experience beginning in the Kelsey-Hutchinson Park on Pine Street,
       traveling backroads to a lunch stop, and returning by a different route to
-      Highlands. The round-trip mileage of the tour is around 80 miles. Drivers
-      are divided into two groups. The first group will be for drivers who want
-      a more spirited drive and a faster pace. The second group will have a
-      slower pace that allows for enjoying automobile, road, and nature in
-      harmony.
+      Highlands. The round-trip mileage of the tour is around 80 miles.
+    </p>
+    <p>
+      Drivers are divided into two groups. The first group will be for drivers
+      who want a more spirited drive and a faster pace. The second group will
+      have a slower pace that allows for enjoying automobile, road, and nature
+      in harmony.
       <em>Registration is required.</em>
     </p>
 
@@ -38,12 +47,20 @@
       "High Octane in the Mountains"<br />
       <small>A Car Gathering Social</small>
     </h3>
+
+    <figure>
+      <img
+        src="https://source.unsplash.com/random/2"
+        alt="One Lap of the Mountains"
+      />
+    </figure>
+
     <h4>Sunday, September 12, 2021 (8pm - 12pm)</h4>
     <p>
-      High Octane is open to all “interesting cars” and free to participants.
-      This will be a fun laid back event with a focus on car owners and visitors
-      sharing their mutual interest in cars. Come join us in the
-      Kelsey-Hutchinson Park.
+      High Octane is <strong>open to all</strong> “interesting cars” and
+      <strong>free to participants</strong>. This will be a fun laid back event
+      with a focus on car owners and visitors sharing their mutual interest in
+      cars. Come join us in the Kelsey-Hutchinson Park.
     </p>
   </div>
 </main>
@@ -68,10 +85,24 @@
     font-size: 3em;
   }
   h3 {
-    margin: 0em auto 2em;
+    margin: 0em auto 1em;
     font-size: 2em;
     text-align: center;
     color: #333;
+  }
+  figure {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
   }
   h4 {
     margin: 2em 0 1em;

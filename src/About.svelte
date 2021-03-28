@@ -6,14 +6,15 @@
     doors were locked down tight, and the classic car events schedule skidded to
     a halt with numerous cancellations and postponements. The Highlands Motoring
     Foundation board of directors had to cancel June’s 2020 <a
-      >Highlands Motoring Festival</a
+      href="https://highlandsmotoringfestival.com/"
+      target="_blank">Highlands Motoring Festival</a
     >.
   </p>
   <p>
     In its place, Highlands Motoring Foundation will host Mountain Motoring, a
     September event for our loyal patrons as well as newcomers.
   </p>
-  <a href="/" class="btn">Some action here</a>
+  <a href="#events" class="btn">See The Events</a>
 </div>
 
 <style>
