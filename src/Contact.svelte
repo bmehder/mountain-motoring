@@ -1,10 +1,32 @@
+<script>
+  let form;
+
+  function formSubmit(e) {
+    e.preventDefault();
+
+    const formData = new FormData();
+    formData.append("name", document.querySelector('input[name="name"]').value);
+    formData.append(
+      "email",
+      document.querySelector('input[name="email"]').value
+    );
+    formData.append("message", document.querySelector("textarea").value);
+
+    fetch("https://getform.io/f/{your-form-endpoint}", {
+      method: "POST",
+      body: formData,
+    })
+      .then((response) => console.log(response))
+      .catch((error) => console.log(error));
+  }
+</script>
+
 <div>
   <h3>Send Us A Message</h3>
-  <form on:submit|preventDefault>
-    <input placeholder="Enter your name..." type="text" />
-    <input placeholder="Enter your email..." type="email" />
-    <!-- <input placeholder="Enter your zip code..." type="text" /> -->
-    <textarea placeholder="Enter your message..." />
+  <form action="#" bind:this={form} on:submit={formSubmit}>
+    <input placeholder="Enter your name..." type="text" name="name" />
+    <input placeholder="Enter your email..." type="email" name="email" />
+    <textarea placeholder="Enter your message..." name="message" />
     <button>Send Message</button>
   </form>
 </div>
@@ -41,5 +63,9 @@
     font-weight: bold;
     outline: none;
     border: none;
+    transition: transform 300ms;
+  }
+  button:hover {
+    transform: scale(0.98);
   }
 </style>

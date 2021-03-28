@@ -33,6 +33,7 @@
   @media (max-width: 840px) {
     article {
       padding: 2em;
+      min-height: 700px;
     }
   }
 </style>
