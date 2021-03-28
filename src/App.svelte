@@ -52,11 +52,3 @@
   </section>
 </main>
 <Footer />
-
-<svelte:head>
-  <title>Mountain Motoring - Sept 10-12, 2021 - Highlands, NC</title>
-  <meta
-    name="description"
-    content="Come drive at the Mountain Motoring in Highlands, NC, share your interest in cars, and help us support our local charities."
-  />
-</svelte:head>
