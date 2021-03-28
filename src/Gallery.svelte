@@ -1,11 +1,11 @@
-<img src="https://source.unsplash.com/random/300x302/" alt="1" />
-<img src="https://source.unsplash.com/random/300x301/" alt="2" />
-<img src="https://source.unsplash.com/random/300x303/" alt="3" />
-<img src="https://source.unsplash.com/random/300x304/" alt="4" />
-<img src="https://source.unsplash.com/random/300x305/" alt="5" />
-<img src="https://source.unsplash.com/random/300x306/" alt="6" />
-<img src="https://source.unsplash.com/random/300x307/" alt="7" />
-<img src="https://source.unsplash.com/random/300x308/" alt="8" />
+<img src="/images/gallery-1.jpg" alt="Gallery 1" />
+<img src="/images/gallery-2.jpg" alt="Gallery 2" />
+<img src="/images/gallery-3.jpg" alt="Gallery 3" />
+<img src="/images/gallery-4.jpg" alt="Gallery 4" />
+<img src="/images/gallery-5.jpg" alt="Gallery 5" />
+<img src="/images/gallery-6.jpg" alt="Gallery 6" />
+<img src="/images/gallery-7.jpg" alt="Gallery 7" />
+<img src="/images/gallery-8.jpg" alt="Gallery 8" />
 
 <style>
   img {
