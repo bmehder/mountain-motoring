@@ -22,6 +22,7 @@
     font-size: 2em;
   }
   form {
+    margin-top: 1em;
     width: 100%;
   }
   input,
@@ -31,6 +32,7 @@
     width: 100%;
     margin: 1em 0;
     padding: 1em;
+    border-radius: 4px;
   }
   textarea {
     min-height: 200px;

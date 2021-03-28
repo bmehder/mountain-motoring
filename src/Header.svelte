@@ -18,10 +18,10 @@
   </div>
   {#if !isMobile}
     <nav transition:slide>
-      <a href="/">Event</a>
-      <a href="/">Schedule</a>
-      <a href="/">Register</a>
-      <a href="/">Contact</a>
+      <a href="#about">About</a>
+      <a href="#events">Events</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
     </nav>
   {/if}
 </header>
@@ -63,6 +63,10 @@
     text-align: center;
     font-weight: bold;
     color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: gold;
   }
   i {
     display: none;

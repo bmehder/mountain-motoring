@@ -19,7 +19,7 @@
     <Hero />
   </section>
 
-  <section>
+  <section id="about">
     <About />
   </section>
 
@@ -33,21 +33,21 @@
     <Summary2 />
   </section>
 
-  <section>
-    <Book />
+  <section id="events">
+    <Events />
   </section>
 
-  <section>
+  <section id="gallery">
     <Gallery />
   </section>
 
-  <!-- <section>
-    <article>
-      <Events />
-    </article>
-  </section> -->
-
   <section>
+    <article>
+      <Book />
+    </article>
+  </section>
+
+  <section id="contact">
     <Contact />
   </section>
 </main>

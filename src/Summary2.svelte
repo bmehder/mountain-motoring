@@ -1,4 +1,5 @@
 <article>
+  <h3>Support Local Charities</h3>
   <p>
     Come drive the mountains, share your interest in cars with others, and help
     us support our local charities: The Literacy and Learning Center, REACH of
@@ -10,7 +11,7 @@
     an all-volunteer group of classic car enthusiasts.
   </p>
 
-  <a class="btn" href>Learn More</a>
+  <a class="btn" href>Donate</a>
 </article>
 
 <style>
@@ -24,6 +25,10 @@
     background-color: white;
     background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.2));
     color: #333;
+  }
+  h3 {
+    align-self: start;
+    margin-bottom: 1em;
   }
   a {
     margin-top: 1em;

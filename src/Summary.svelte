@@ -1,4 +1,5 @@
 <article>
+  <h3>A Fall Weekend for Car Enthusiasts</h3>
   <p>
     Please mark your calendar for September 10-12, 2020, and plan to be in
     Highlands for Mountain Motoring – a fall weekend for car enthusiasts.
@@ -7,7 +8,7 @@
     no registration required, unjudged car show. In keeping with Highlands Motoring
     Festival tradition, all proceeds from these events will benefit our charities.
   </p>
-  <a href="/" class="btn">Learn More</a>
+  <a href="#events" class="btn">Learn More</a>
 </article>
 
 <style>
@@ -21,6 +22,10 @@
     background-color: white;
     background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.2));
     color: #333;
+  }
+  h3 {
+    align-self: start;
+    margin-bottom: 1em;
   }
   a {
     margin-top: 1em;

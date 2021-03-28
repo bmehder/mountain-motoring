@@ -5,8 +5,9 @@
     putting on a turn signal! As a result of the shelter-in-place orders, garage
     doors were locked down tight, and the classic car events schedule skidded to
     a halt with numerous cancellations and postponements. The Highlands Motoring
-    Foundation board of directors had to cancel June’s 2020 Highlands Motoring
-    Festival.
+    Foundation board of directors had to cancel June’s 2020 <a
+      >Highlands Motoring Festival</a
+    >.
   </p>
   <p>
     In its place, Highlands Motoring Foundation will host Mountain Motoring, a
@@ -18,7 +19,7 @@
 <style>
   div {
     max-width: 900px;
-    padding: 4em 2em;
+    padding: 4em;
   }
   h3 {
     margin-bottom: 1em;
@@ -32,6 +33,13 @@
   }
   .btn {
     display: block;
-    margin: 2em auto;
+    width: fit-content;
+    min-width: 150px;
+    margin: 3em auto;
+  }
+  @media (max-width: 840px) {
+    div {
+      padding: 2em;
+    }
   }
 </style>
