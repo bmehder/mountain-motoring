@@ -79,15 +79,10 @@
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.24);
   }
   h2 {
-    margin: 1.5em auto 0;
-    text-align: center;
-    color: gold;
-    font-size: 3em;
+    margin-top: 1.5em;
   }
-  h3 {
-    margin: 0em auto 1em;
-    font-size: 2em;
-    text-align: center;
+  h3,
+  h4 {
     color: #333;
   }
   figure {
@@ -104,14 +99,9 @@
     object-fit: cover;
     border-radius: 4px;
   }
-  h4 {
-    margin: 2em 0 1em;
-    color: #333;
-  }
   .btn {
     display: block;
-    width: fit-content;
-    margin: 4em auto;
+    margin: 2em auto;
   }
   hr {
     max-width: 840px;

@@ -35,8 +35,6 @@
   }
   .btn {
     display: block;
-    width: fit-content;
-    min-width: 150px;
     margin: 3em auto;
   }
   @media (max-width: 840px) {

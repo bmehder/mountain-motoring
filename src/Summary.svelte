@@ -25,9 +25,9 @@
   }
   h3 {
     align-self: start;
-    margin-bottom: 1em;
   }
-  a {
+  .btn {
+    display: block;
     margin-top: 1em;
   }
   @media (max-width: 840px) {

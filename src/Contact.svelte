@@ -20,10 +20,8 @@
   }
   h3 {
     color: gold;
-    font-size: 2em;
   }
   form {
-    margin-top: 1em;
     width: 100%;
   }
   input,
@@ -40,7 +38,6 @@
   }
   button {
     background: gold;
-    color: #444;
     font-weight: bold;
     outline: none;
     border: none;

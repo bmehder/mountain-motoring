@@ -24,18 +24,11 @@
     padding: 4em 2em;
     text-align: center;
   }
-  h3 {
-    margin-bottom: 0.5em;
-    font-size: 2em;
-    line-height: 1.5em;
-  }
   p {
     text-align: left;
   }
   .btn {
     display: block;
-    width: fit-content;
-    min-width: 200px;
     margin: 2em auto;
   }
 </style>

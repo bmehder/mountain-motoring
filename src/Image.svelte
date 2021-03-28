@@ -12,6 +12,5 @@
     min-height: 600px;
     background-color: white;
     background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.2));
-    color: #333;
   }
 </style>
