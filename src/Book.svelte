@@ -1,6 +1,6 @@
 <div>
   <h3>
-    One Lap of the Mountains (Book)<br />
+    "One Lap of the Mountains" Book<br />
     <small>Exciting Drives for Car Enthusiasts</small>
   </h3>
   <p>
@@ -28,10 +28,13 @@
     font-size: 2em;
     line-height: 1.5em;
   }
+  p {
+    text-align: left;
+  }
   .btn {
     display: block;
     width: fit-content;
-    min-width: 150px;
+    min-width: 200px;
     margin: 2em auto;
   }
 </style>

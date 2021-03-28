@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 600px;
+    height: 660px;
     padding: 2em;
     background: url(https://source.unsplash.com/random/) no-repeat center
       center/cover;

@@ -14,7 +14,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
+    width: 80%;
+    max-width: 400px;
     margin: 4em 0;
   }
   h3 {

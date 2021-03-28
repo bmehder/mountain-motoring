@@ -8,12 +8,14 @@
 
 <header>
   <div>
-    <h1>
-      <img
-        src="https://highlandsmotoringfestival.com/wp-content/uploads/highlands-motoring-festival.png"
-        alt="Logo"
-      />
-    </h1>
+    <!-- <h1>
+      <a href="https://highlandsmotoringfestival.com/" target="_blank">
+        <img
+          src="https://highlandsmotoringfestival.com/wp-content/uploads/highlands-motoring-festival.png"
+          alt="Logo"
+        /></a
+      >
+    </h1> -->
     <i on:click={() => (isMobile = !isMobile)} class="fa fa-bars" />
   </div>
   {#if !isMobile}
@@ -41,12 +43,20 @@
   header {
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 2em;
     margin: 0;
     padding: 2em 3em;
     background-image: radial-gradient(#1a6626, #154e1c);
     color: white;
+  }
+  h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5em;
   }
   div img {
     width: 50%;
@@ -60,13 +70,13 @@
   a {
     display: block;
     line-height: 2.5em;
-    text-align: center;
     font-weight: bold;
     color: white;
     text-decoration: none;
   }
   a:hover {
     color: gold;
+    border-bottom: none;
   }
   i {
     display: none;
@@ -74,7 +84,7 @@
   @media (max-width: 840px) {
     header {
       flex-direction: column;
-      align-items: stretch;
+      align-items: flex-end;
       padding: 2em;
       line-height: 1em;
     }
@@ -89,6 +99,7 @@
     nav {
       display: block;
       width: 100%;
+      text-align: center;
     }
     i {
       display: block;
