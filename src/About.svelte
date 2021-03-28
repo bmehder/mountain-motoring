@@ -7,11 +7,12 @@
     a halt with numerous cancellations and postponements. The Highlands Motoring
     Foundation board of directors had to cancel June’s 2020 <a
       href="https://highlandsmotoringfestival.com/"
+      rel="noopener"
       target="_blank">Highlands Motoring Festival</a
     >.
   </p>
   <p>
-    In its place, Highlands Motoring Foundation will host Mountain Motoring, a
+    In its place, Highlands Motoring Foundation will host Mountain Motoring – a
     September event for our loyal patrons as well as newcomers.
   </p>
   <a href="#events" class="btn">See The Events</a>
