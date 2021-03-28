@@ -12,6 +12,7 @@
   <a
     href="https://highlandsmotoringfestival.com/one-lap-book/"
     class="btn"
+    rel="noopener"
     target="_blank">Buy Now</a
   >
 </div>

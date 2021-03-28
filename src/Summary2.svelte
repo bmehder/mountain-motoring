@@ -4,14 +4,15 @@
     Come drive the mountains, share your interest in cars with others, and help
     us support our local charities: <a
       href="https://www.maconncliteracy.org/home.html"
-      >The Literacy and Learning Center</a
+      rel="noopener">The Literacy and Learning Center</a
     >,
-    <a href="https://www.reachofmaconcounty.org/" target="_blank"
+    <a href="https://www.reachofmaconcounty.org/" target="_blank" rel="noopener"
       >REACH of Macon County</a
     >,
     <a
       href="https://ncafcc.org/property/community-care-clinic-of-highlands-cashiers-inc/"
-      target="_blank">Community Care Clinic</a
+      target="_blank"
+      rel="noopener">Community Care Clinic</a
     >.
   </p>
 
@@ -20,7 +21,12 @@
     an all-volunteer group of classic car enthusiasts.
   </p>
 
-  <a class="btn" href="https://highlandsmotoringfestival.com/donate/">Donate</a>
+  <a
+    class="btn"
+    rel="noopener"
+    target="_blank"
+    href="https://highlandsmotoringfestival.com/donate/">Donate</a
+  >
 </article>
 
 <style>
