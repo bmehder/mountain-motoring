@@ -15,29 +15,31 @@
 
     <h4>Friday, September 10, 2021</h4>
     <p>
-      A shorter version of One Lap of the Mountains. Like the original,
-      extremely popular One Lap of the Mountains, this event is a mountain
-      driving experience beginning in the Kelsey-Hutchinson Park on Pine Street,
-      traveling backroads to a lunch stop, and returning by a different route to
-      Highlands. The round-trip mileage of the tour is around 80 miles.
+      A shorter version of "One Lap of the Mountains". Like the original,
+      extremely popular "One Lap of the Mountains", this event is a mountain
+      driving experience beginning at the Kelsey-Hutchinson Park on Pine Street,
+      traveling backroads to a lunch stop, and then returning by a different
+      route to Highlands. The round-trip mileage of the tour is around 80 miles.
     </p>
     <p>
       Drivers are divided into two groups. The first group will be for drivers
       who want a more spirited drive and a faster pace. The second group will
       have a slower pace that allows for enjoying automobile, road, and nature
-      in harmony.
-      <em>Registration is required.</em>
+      in harmony. Participants will receive a dash plaque, two HMF hats, and the
+      2021 HMF poster.
     </p>
+    <p><em>Registration is required.</em></p>
 
     <h4>Saturday, September 11, 2021</h4>
     <p>
-      "One Lap of the Mountains Grande" will roll out of Highlands in two groups
-      on an approximate 175 mile driving adventure. The 2021 One Lap route has
-      been designed to offer an excellent driving experience on winding mountain
-      roads stopping for lunch before returning via different route. <em
-        >Registration is required.</em
-      >
+      "One Lap of the Mountains Grande" returns to its traditional format and
+      will roll out of Highlands in two groups on an approximate 175 mile
+      driving adventure. The carefully curated route will travel the area’s
+      winding mountain roads stopping for lunch before returning to Highlands
+      via a different route. Participants will receive a dash plaque, two HMF
+      hats, and the 2021 HMF poster.
     </p>
+    <p><em>Registration is required.</em></p>
 
     <a href="/" class="btn">Register For One Lap</a>
 
@@ -57,11 +59,13 @@
 
     <h4>Sunday, September 12, 2021 (8pm - 12pm)</h4>
     <p>
-      High Octane is <strong>open to all</strong> “interesting cars” and
-      <strong>free to participants</strong>. This will be a fun laid back event
-      with a focus on car owners and visitors sharing their mutual interest in
-      cars. Come join us in the Kelsey-Hutchinson Park.
+      High Octane is <strong>open to all</strong> "interesting cars" and
+      <strong>free to participants</strong>. The open format allows cars to come
+      and go at their convenience. This will be a fun, laid back event with a
+      focus on car owners and visitors sharing their mutual interest in cars.
+      Come join us in the Kelsey-Hutchinson Park on Sunday morning.
     </p>
+    <p><em>No registration is required.</em></p>
   </div>
 </main>
 

@@ -1,15 +1,16 @@
 <div>
   <h3>A Unique Mountain Driving Experience</h3>
   <p>
-    In the blink of an eye, the vintage motoring calendar changed lanes without
-    putting on a turn signal! As a result of the shelter-in-place orders, garage
-    doors were locked down tight, and the classic car events schedule skidded to
-    a halt with numerous cancellations and postponements. The Highlands Motoring
-    Foundation board of directors had to cancel June’s 2020 <a
-      href="https://highlandsmotoringfestival.com/"
-      rel="noopener"
-      target="_blank">Highlands Motoring Festival</a
-    >.
+    At 4118 feet, Highlands NC is surrounded by national forests and wonderful
+    mountain roads. Western NC has become increasingly popular with car
+    enthusiasts as the place where driver, vehicle, and road can be put to the
+    test.
+  </p>
+  <p>
+    The team that stages the Highlands Motoring Festival has created this
+    "driver’s experience" to take advantage of the ideal season between the peak
+    summer months and the October fall color season. It is a time with better
+    lodging availability, moderate temperatures, and less congested roads.
   </p>
   <p>
     In its place, Highlands Motoring Foundation will host Mountain Motoring – a

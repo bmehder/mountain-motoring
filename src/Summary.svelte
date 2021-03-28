@@ -1,12 +1,16 @@
 <article>
   <h3>A Fall Weekend for Car Enthusiasts</h3>
   <p>
-    Please mark your calendar for September 10-12, 2020, and plan to be in
-    Highlands for Mountain Motoring – a fall weekend for car enthusiasts.
-    Included in the event are two days <em>(YES, TWO DAYS!)</em> of our popular One
-    Lap of the Mountains driving tours and "High Octane in the Park," - a bring-what-you-got,
-    no registration required, unjudged car show. In keeping with Highlands Motoring
-    Festival tradition, all proceeds from these events will benefit our charities.
+    This is primarily a driving event with tour routes designed to take
+    advantage of the area’s twisty back roads that are less traveled. The
+    route’s designers are fellow enthusiasts who want to share hidden secret
+    roads. The run groups are limited in size to allow each group to stay
+    together and enhance fellowship among enthusiasts.
+  </p>
+  <p>
+    Sunday’s "High Octane in the Mountains" is intended to be a low key
+    gathering of interesting cars and their owners who will want to share their
+    stories of a great weekend.
   </p>
   <a href="#events" class="btn">Learn More</a>
 </article>
