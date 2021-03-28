@@ -3,7 +3,7 @@
   <form on:submit|preventDefault>
     <input placeholder="Enter your name..." type="text" />
     <input placeholder="Enter your email..." type="email" />
-    <input placeholder="Enter your zip code..." type="text" />
+    <!-- <input placeholder="Enter your zip code..." type="text" /> -->
     <textarea placeholder="Enter your message..." />
     <button>Send Message</button>
   </form>
