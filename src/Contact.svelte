@@ -1,5 +1,11 @@
 <script>
   let form;
+  let isSubmitted = false;
+  let name = "";
+  let email = "";
+  let message = "";
+  const thankYou =
+    "Thank you for submitting your message. We will get back to you as soon as possible.";
 
   function formSubmit(e) {
     e.preventDefault();
@@ -12,23 +18,47 @@
     );
     formData.append("message", document.querySelector("textarea").value);
 
-    fetch("https://getform.io/f/{your-form-endpoint}", {
+    fetch("https://getform.io/f/0615fe82-acf6-4e9b-8ba3-902a0309da6d", {
       method: "POST",
       body: formData,
     })
-      .then((response) => console.log(response))
+      .then((response) => {
+        console.log(response);
+        isSubmitted = true;
+      })
       .catch((error) => console.log(error));
+
+    name.value = "";
+    email.value = "";
+    message.value = "";
   }
 </script>
 
 <div>
   <h3>Send Us A Message</h3>
-  <form action="#" bind:this={form} on:submit={formSubmit}>
-    <input placeholder="Enter your name..." type="text" name="name" />
-    <input placeholder="Enter your email..." type="email" name="email" />
-    <textarea placeholder="Enter your message..." name="message" />
+  <form bind:this={form} on:submit={formSubmit}>
+    <input
+      bind:this={name}
+      placeholder="Enter your name..."
+      type="text"
+      name="name"
+    />
+    <input
+      bind:this={email}
+      placeholder="Enter your email..."
+      type="email"
+      name="email"
+    />
+    <textarea
+      bind:this={message}
+      placeholder="Enter your message..."
+      name="message"
+    />
     <button>Send Message</button>
   </form>
+  {#if isSubmitted}
+    <p>{thankYou}</p>
+  {/if}
 </div>
 
 <style>
@@ -42,6 +72,9 @@
   }
   h3 {
     color: gold;
+  }
+  p {
+    color: white;
   }
   form {
     width: 100%;
