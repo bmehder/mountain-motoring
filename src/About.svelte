@@ -7,14 +7,13 @@
     test.
   </p>
   <p>
-    The team that stages the Highlands Motoring Festival has created this
-    "driver’s experience" to take advantage of the ideal season between the peak
-    summer months and the October fall color season. It is a time with better
-    lodging availability, moderate temperatures, and less congested roads.
-  </p>
-  <p>
-    In its place, Highlands Motoring Foundation will host Mountain Motoring – a
-    September event for our loyal patrons as well as newcomers.
+    The team that stages the <a
+      href="https://highlandsmotoringfestival.com/"
+      rel="noopener"
+      target="_blank">Highlands Motoring Festival</a
+    > has created this "driver’s experience" to take advantage of the ideal season
+    between the peak summer months and the October fall color season. It is a time
+    with better lodging availability, moderate temperatures, and less congested roads.
   </p>
   <a href="#events" class="btn">See The Events</a>
 </div>
