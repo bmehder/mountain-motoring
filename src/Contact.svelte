@@ -42,17 +42,20 @@
       placeholder="Enter your name..."
       type="text"
       name="name"
+      required
     />
     <input
       bind:this={email}
       placeholder="Enter your email..."
       type="email"
       name="email"
+      required
     />
     <textarea
       bind:this={message}
       placeholder="Enter your message..."
       name="message"
+      required
     />
     <button>Send Message</button>
   </form>
