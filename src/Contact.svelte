@@ -1,7 +1,7 @@
 <div>
   <h3>Send Us A Message</h3>
   <form on:submit|preventDefault>
-    <input placeholder="Enter your name" type="text" />
+    <input placeholder="Enter your name..." type="text" />
     <input placeholder="Enter your email..." type="email" />
     <input placeholder="Enter your zip code..." type="text" />
     <textarea placeholder="Enter your message..." />
@@ -17,6 +17,10 @@
     width: 400px;
     margin: 4em 0;
   }
+  h3 {
+    color: gold;
+    font-size: 2em;
+  }
   form {
     width: 100%;
   }
@@ -25,7 +29,7 @@
   button {
     display: block;
     width: 100%;
-    margin: 1em;
+    margin: 1em 0;
     padding: 1em;
   }
   textarea {

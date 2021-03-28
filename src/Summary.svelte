@@ -7,7 +7,7 @@
     no registration required, unjudged car show. In keeping with Highlands Motoring
     Festival tradition, all proceeds from these events will benefit our charities.
   </p>
-  <a class="btn">Learn More</a>
+  <a href="/" class="btn">Learn More</a>
 </article>
 
 <style>

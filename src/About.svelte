@@ -12,6 +12,7 @@
     In its place, Highlands Motoring Foundation will host Mountain Motoring, a
     September event for our loyal patrons as well as newcomers.
   </p>
+  <a href="/" class="btn">Some action here</a>
 </div>
 
 <style>
@@ -21,10 +22,16 @@
   }
   h3 {
     margin-bottom: 1em;
+    font-size: 2em;
     line-height: 1.5em;
     color: gold;
+    text-align: center;
   }
   p {
     color: white;
+  }
+  .btn {
+    display: block;
+    margin: 2em auto;
   }
 </style>

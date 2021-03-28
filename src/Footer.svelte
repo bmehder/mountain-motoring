@@ -1,13 +1,18 @@
-<footer>Footer</footer>
+<footer>
+  © Copyright {new Date().getFullYear()} Highlands Motoring Foundation. All rights
+  reserved.
+</footer>
 
 <style>
   footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em;
     height: 10vh;
-    background: #333;
+    padding: 2em 1em;
+    background: #111;
     color: white;
+    line-height: 1.5em;
+    text-align: center;
   }
 </style>

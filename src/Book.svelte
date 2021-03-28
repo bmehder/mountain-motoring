@@ -7,7 +7,11 @@
       >"One Lap of the Mountains, Exciting Drives for Car Enthusiasts"</em
     >, a route guide of mountain drives suitable for all interests.
   </p>
-  <a href="/" class="btn">Learn More</a>
+  <a
+    href="https://highlandsmotoringfestival.com/one-lap-book/"
+    class="btn"
+    target="_blank">Learn More</a
+  >
 </div>
 
 <style>
@@ -18,7 +22,7 @@
   }
   h3 {
     margin-bottom: 0.5em;
-    font-size: 3em;
+    font-size: 2em;
     line-height: 1.5em;
     color: gold;
   }
