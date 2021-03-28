@@ -1,5 +1,5 @@
 <article>
-  <p><img src="https://source.unsplash.com/random/3" alt="" /></p>
+  <p><img src="/images/highlands-nc.jpg" alt="" /></p>
 </article>
 
 <style>

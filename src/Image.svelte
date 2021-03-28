@@ -1,5 +1,5 @@
 <article>
-  <p><img src="https://source.unsplash.com/random/2" alt="" /></p>
+  <p><img src="/images/car-enthusiasts.jpg" alt="" /></p>
 </article>
 
 <style>

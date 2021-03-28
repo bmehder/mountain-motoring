@@ -16,8 +16,7 @@
     width: 100%;
     height: 660px;
     padding: 2em;
-    background: url(https://source.unsplash.com/random/) no-repeat center
-      center/cover;
+    background: url(/images/mountain-motoring.jpg) no-repeat center center/cover;
     text-align: center;
     overflow: hidden;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);

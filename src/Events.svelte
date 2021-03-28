@@ -8,7 +8,7 @@
 
     <figure>
       <img
-        src="https://source.unsplash.com/random/1"
+        src="/images/one-lap-of-the-mountains.jpg"
         alt="One Lap of the Mountains"
       />
     </figure>
@@ -51,10 +51,7 @@
     </h3>
 
     <figure>
-      <img
-        src="https://source.unsplash.com/random/2"
-        alt="One Lap of the Mountains"
-      />
+      <img src="/images/car-enthusiasts.jpg" alt="One Lap of the Mountains" />
     </figure>
 
     <h4>Sunday, September 12, 2021 (8pm - 12pm)</h4>
