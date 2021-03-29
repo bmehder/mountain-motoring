@@ -8,14 +8,14 @@
 
 <header>
   <div>
-    <h1>
+    <!-- <h1>
       <a href="https://highlandsmotoringfestival.com/" target="_blank">
         <img
           src="https://highlandsmotoringfestival.com/wp-content/uploads/highlands-motoring-festival.png"
           alt="Logo"
         /></a
       >
-    </h1>
+    </h1> -->
     <i on:click={() => (isMobile = !isMobile)} class="fa fa-bars" />
   </div>
   {#if !isMobile}
