@@ -13,10 +13,15 @@
   import Contact from "./Contact.svelte";
   import Footer from "./Footer.svelte";
 
-  let isPublic = false;
   let input;
   let value;
-  const login = () => value === "123" && (isPublic = !isPublic);
+  let isPublic = false;
+
+  const handleEnter = (e) => {
+    e.key === "Enter" && !isPublic && login();
+  };
+  const login = (e) => value === "123" && (isPublic = !isPublic);
+
   onMount(() => input.focus());
 </script>
 
@@ -74,4 +79,4 @@
   </aside>
 {/if}
 
-<svelte:window on:keydown={login} />
+<svelte:window on:keydown={handleEnter} />
