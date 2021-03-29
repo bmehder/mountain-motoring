@@ -1,9 +1,9 @@
 <script>
   let form;
+  let name;
+  let email;
+  let message;
   let isSubmitted = false;
-  let name = "";
-  let email = "";
-  let message = "";
   const thankYou =
     "Thank you for submitting your message. We will get back to you as soon as possible.";
 
