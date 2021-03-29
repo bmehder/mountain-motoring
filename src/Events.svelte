@@ -41,7 +41,12 @@
     </p>
     <p><em>Registration is required.</em></p>
 
-    <a href="/" class="btn">Register For One Lap</a>
+    <a
+      href="https://highlandsmotoringfestival.com/2021-mountain-motoring-events/"
+      rel="noopener"
+      class="btn"
+      target="_blank">Register For One Lap</a
+    >
 
     <hr />
 
