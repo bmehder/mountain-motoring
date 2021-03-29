@@ -1,6 +1,5 @@
 <script>
   import { onMount } from "svelte";
-  import Header from "./Header.svelte";
   import Hero from "./Hero.svelte";
   import About from "./About.svelte";
   import Summary from "./Summary.svelte";
@@ -26,7 +25,6 @@
 </script>
 
 {#if isPublic}
-  <Header />
   <main>
     <section>
       <Hero />
