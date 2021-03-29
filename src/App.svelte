@@ -1,4 +1,5 @@
 <script>
+  import { onMount } from "svelte";
   import Header from "./Header.svelte";
   import Hero from "./Hero.svelte";
   import About from "./About.svelte";
@@ -11,44 +12,66 @@
   import Events from "./Events.svelte";
   import Contact from "./Contact.svelte";
   import Footer from "./Footer.svelte";
+
+  let isPublic = false;
+  let input;
+  let value;
+  const login = () => value === "123" && (isPublic = !isPublic);
+  onMount(() => input.focus());
 </script>
 
-<Header />
-<main>
-  <section>
-    <Hero />
-  </section>
+{#if isPublic}
+  <Header />
+  <main>
+    <section>
+      <Hero />
+    </section>
 
-  <section id="about">
-    <About />
-  </section>
+    <section id="about">
+      <About />
+    </section>
 
-  <section>
-    <Summary />
-    <Image />
-  </section>
+    <section>
+      <Summary />
+      <Image />
+    </section>
 
-  <section>
-    <Image2 />
-    <Summary2 />
-  </section>
+    <section>
+      <Image2 />
+      <Summary2 />
+    </section>
 
-  <section id="events">
-    <Events />
-  </section>
+    <section id="events">
+      <Events />
+    </section>
 
-  <section id="gallery">
-    <Gallery />
-  </section>
+    <section id="gallery">
+      <Gallery />
+    </section>
 
-  <section>
-    <article>
-      <Book />
-    </article>
-  </section>
+    <section>
+      <article>
+        <Book />
+      </article>
+    </section>
 
-  <section id="contact">
-    <Contact />
-  </section>
-</main>
-<Footer />
+    <section id="contact">
+      <Contact />
+    </section>
+  </main>
+  <Footer />
+{:else}
+  <aside
+    style="display:flex;flex-direction:column;justify-content:center;align-items:center;max-width:400px;min-height:100vh;margin:auto;background:#154e1c;"
+  >
+    <input
+      bind:this={input}
+      bind:value
+      type="text"
+      placeholder="Enter password"
+    />
+    <a href="/" class="btn" on:click|preventDefault={login}>Login</a>
+  </aside>
+{/if}
+
+<svelte:window on:keydown={login} />
