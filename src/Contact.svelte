@@ -1,66 +1,62 @@
 <script>
-  let form;
-  let name;
-  let email;
-  let message;
-  let isSubmitted = false;
-  const thankYou =
-    "Thank you for submitting your message. We will get back to you as soon as possible.";
+  let form
 
-  function formSubmit(e) {
-    e.preventDefault();
+  let name
+  let email
+  let message
+  let isFormSubmitted = false
+  let error = false
 
-    const formData = new FormData();
-    formData.append("name", document.querySelector('input[name="name"]').value);
-    formData.append(
-      "email",
-      document.querySelector('input[name="email"]').value
-    );
-    formData.append("message", document.querySelector("textarea").value);
+  export let endpoint = ''
+  export let thankYou = ''
 
-    fetch("https://getform.io/f/0615fe82-acf6-4e9b-8ba3-902a0309da6d", {
-      method: "POST",
-      body: formData,
-    })
-      .then((response) => {
-        console.log(response);
-        isSubmitted = true;
-      })
-      .catch((error) => console.log(error));
+  function submitForm(e) {
+    const formData = new FormData()
 
-    name.value = "";
-    email.value = "";
-    message.value = "";
+    formData.append('name', name)
+    formData.append('email', email)
+    formData.append('message', message)
+
+    fetch(endpoint, { method: 'POST', body: formData })
+      .then(response => (isSubmitted = true))
+      .catch(err => (error = err))
+
+    form.reset()
   }
 </script>
 
 <div>
   <h3>Send Us A Message</h3>
-  <form bind:this={form} on:submit={formSubmit}>
+  <form bind:this={form} on:submit|preventDefault={submitForm}>
     <input
-      bind:this={name}
+      bind:value={name}
       placeholder="Enter your name..."
       type="text"
       name="name"
       required
     />
     <input
-      bind:this={email}
+      bind:value={email}
       placeholder="Enter your email..."
       type="email"
       name="email"
       required
     />
     <textarea
-      bind:this={message}
+      bind:value={message}
       placeholder="Enter your message..."
       name="message"
       required
     />
     <button>Send Message</button>
   </form>
-  {#if isSubmitted}
+
+  {#if isFormSubmitted}
     <p>{thankYou}</p>
+  {/if}
+
+  {#if error}
+    <p class:error>There was an error. Please try again.</p>
   {/if}
 </div>
 
@@ -103,5 +99,8 @@
   }
   button:hover {
     transform: scale(0.98);
+  }
+  .error {
+    color: gold;
   }
 </style>
