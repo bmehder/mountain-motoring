@@ -48,7 +48,7 @@
       name="message"
       required
     />
-    <button>Send Message</button>
+    <button class="btn">Send Message</button>
   </form>
 
   {#if isFormSubmitted}

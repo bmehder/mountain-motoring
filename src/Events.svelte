@@ -117,6 +117,7 @@
 
   @media (max-width: 840px) {
     div {
+      margin: 4em auto 0em;
       padding: 2em;
       border-radius: 0;
     }
