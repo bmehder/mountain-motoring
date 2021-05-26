@@ -126,6 +126,10 @@ textarea {
   border-radius: 2px;
 }
 
+#book {
+  margin-top: 100px;
+}
+
 @media screen and (max-width: 840px) {
   section {
     min-height: auto;

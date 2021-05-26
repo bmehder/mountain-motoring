@@ -15,14 +15,14 @@
 
   let input
   let value
-  let isPublic = false
+  let isPublic = true
 
   const handleEnter = e => {
     e.key === 'Enter' && !isPublic && login()
   }
   const login = e => value === '123' && (isPublic = !isPublic)
 
-  onMount(() => input.focus())
+  onMount(() => input?.focus())
 </script>
 
 {#if isPublic}
@@ -55,7 +55,7 @@
     </section>
 
     <section>
-      <article>
+      <article id="book">
         <Book />
       </article>
     </section>
