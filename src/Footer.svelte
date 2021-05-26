@@ -10,7 +10,7 @@
     align-items: center;
     height: 10vh;
     padding: 2em 1em;
-    background: #111;
+    background: #161616;
     color: white;
     line-height: 1.5em;
     text-align: center;

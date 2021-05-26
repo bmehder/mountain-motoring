@@ -1,9 +1,9 @@
 <script>
-  import { slide } from "svelte/transition";
-  let isMobile = false;
-  let innerWidth;
+  import { slide } from 'svelte/transition'
+  let isMobile = false
+  let innerWidth
 
-  $: isMobile = innerWidth < 840 ? true : false;
+  $: isMobile = innerWidth < 840 ? true : false
 </script>
 
 <header>
@@ -48,18 +48,8 @@
     gap: 2em;
     margin: 0;
     padding: 2em 3em;
-    background-image: radial-gradient(#1a6626, #154e1c);
+    background: #030;
     color: white;
-  }
-  h1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    gap: 0.5em;
-  }
-  div img {
-    width: 50%;
   }
   nav {
     display: flex;
@@ -70,12 +60,13 @@
   a {
     display: block;
     line-height: 2.5em;
+    font-size: 1.5em;
     font-weight: bold;
     color: white;
     text-decoration: none;
   }
   a:hover {
-    color: gold;
+    color: #fb0;
     border-bottom: none;
   }
   i {
@@ -92,9 +83,6 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-    }
-    div img {
-      width: 100px;
     }
     nav {
       display: block;

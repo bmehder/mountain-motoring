@@ -45,11 +45,10 @@
       href="https://highlandsmotoringfestival.com/2021-mountain-motoring-events/"
       rel="noopener"
       class="btn"
-      target="_blank">Register For One Lap</a
+      target="_blank">Register For The One Lap</a
     >
-
-    <hr />
-
+  </div>
+  <div>
     <h3>
       "High Octane in the Mountains"<br />
       <small>A Car Gathering Social</small>
@@ -80,7 +79,7 @@
     max-width: 840px;
     padding: 4em;
     background: white;
-    background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.2));
+    background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.1));
     border-radius: 24px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.24);
   }

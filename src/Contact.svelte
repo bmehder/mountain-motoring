@@ -70,7 +70,7 @@
     margin: 4em 0;
   }
   h3 {
-    color: gold;
+    color: #fb0;
   }
   p {
     color: white;
@@ -79,8 +79,7 @@
     width: 100%;
   }
   input,
-  textarea,
-  button {
+  textarea {
     display: block;
     width: 100%;
     margin: 1em 0;
@@ -91,16 +90,10 @@
     min-height: 200px;
   }
   button {
-    background: gold;
-    font-weight: bold;
-    outline: none;
-    border: none;
-    transition: transform 300ms;
-  }
-  button:hover {
-    transform: scale(0.98);
+    width: 100%;
+    border-radius: 4px;
   }
   .error {
-    color: gold;
+    color: white;
   }
 </style>

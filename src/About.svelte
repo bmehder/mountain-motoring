@@ -27,7 +27,7 @@
     margin-bottom: 1em;
     font-size: 2em;
     line-height: 1.5em;
-    color: gold;
+    color: #fb0;
     text-align: center;
   }
   p {

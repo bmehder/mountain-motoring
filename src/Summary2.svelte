@@ -38,7 +38,7 @@
     color: white;
     min-height: 600px;
     background-color: white;
-    background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.2));
+    background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.1));
     color: #333;
   }
   h3 {
@@ -47,10 +47,10 @@
   }
   a {
     margin-top: 1em;
-    color: #154e1c;
+    color: #030;
   }
   a:hover {
-    border-bottom: 1px solid #154e1c;
+    border-bottom: 1px solid #030;
   }
   @media (max-width: 840px) {
     article {

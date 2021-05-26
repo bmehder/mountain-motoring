@@ -1,5 +1,6 @@
 <div class="hero">
   <h2>Mountain Motoring</h2>
+
   <h3>
     September 10th - 12th <br />
     Highlands, NC
@@ -8,7 +9,6 @@
 
 <style>
   .hero {
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,29 +16,20 @@
     width: 100%;
     height: 660px;
     padding: 2em;
-    background: url(/images/mountain-motoring.jpg) no-repeat center center/cover;
     text-align: center;
     overflow: hidden;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  .hero::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-  .hero > * {
-    z-index: 1;
+    background-image: url(/images/mountain-motoring.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 16, 0, 0.42);
   }
   h2 {
     text-align: center;
     font-weight: 700;
     font-size: 8vw;
     line-height: 1.25em;
-    color: gold;
   }
   h3 {
     font-size: 3vw;
