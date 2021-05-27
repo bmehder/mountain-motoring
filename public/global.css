@@ -106,10 +106,8 @@ a:visited {
   border-bottom: none;
 }
 .btn::after {
-  content: ' \25BA';
-  font-size: 0.8em;
+  content: ' \00BB';
   line-height: 1.5em;
-  vertical-align: middle;
 }
 
 input,
