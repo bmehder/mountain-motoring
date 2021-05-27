@@ -19,8 +19,8 @@
   img:hover {
     filter: grayscale(0%);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.24);
-    transform: scale(1.05);
-    z-index: 1;
-    border-radius: 8px;
+    /* transform: scale(1.05); */
+    /* z-index: 1; */
+    /* border-radius: 8px; */
   }
 </style>
