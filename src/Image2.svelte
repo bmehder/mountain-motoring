@@ -13,4 +13,7 @@
     background-color: white;
     background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.2));
   }
+  img {
+    min-height: 640px;
+  }
 </style>
