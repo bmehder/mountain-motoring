@@ -15,7 +15,7 @@
 
   let input
   let value
-  let isPublic = false
+  let isPublic = true
 
   const handleEnter = e => {
     e.key === 'Enter' && !isPublic && login()
