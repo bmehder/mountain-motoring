@@ -58,7 +58,7 @@
       <img src="/images/car-enthusiasts.jpg" alt="One Lap of the Mountains" />
     </figure>
 
-    <h4>Sunday, September 12, 2021 (8pm - 12pm)</h4>
+    <h4>Sunday, September 12, 2021 (8am - 12pm)</h4>
     <p>
       High Octane is <strong>open to all</strong> "interesting cars" and
       <strong>free to participants</strong>. The open format allows cars to come
