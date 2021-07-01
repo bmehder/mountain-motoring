@@ -1,17 +1,19 @@
 <main>
   <div>
     <h3>
-      "One Lap of the Mountains" Book<br />
-      <small>Exciting Drives for Car Enthusiasts</small>
+      "Second Lap of the Mountains" Book<br />
+      <small>More Exciting Drives for Car Enthusiasts</small>
     </h3>
     <p>
-      To better accommodate all our mountain driver friends, in 2018 the
-      Highlands Motoring Festival published <em
-        >"One Lap of the Mountains, Exciting Drives for Car Enthusiasts"</em
-      >, a route guide of mountain drives suitable for all interests.
+      The Highlands Motoring Foundation is proud to introduce our newest
+      publication, “Second Lap of the Mountains, More Exciting Drives for Car
+      Enthusiasts.” Like our first publication, “One Lap of the Mountains,
+      Exciting Drives for Car Enthusiasts,” this newest book is filled with
+      Highlands Motoring Festival’s popular “One Lap of the Mountain” driving
+      tours.
     </p>
     <a
-      href="https://highlandsmotoringfestival.com/one-lap-book/"
+      href="https://highlandsmotoringfestival.com/books/"
       class="btn"
       rel="noopener"
       target="_blank">Buy Now</a
@@ -22,10 +24,10 @@
 <style>
   main {
     padding: 4em 0em;
-    background: url('/images/one-lap-book.jpg') center center/cover;
+    background: url('/images/second-lap-book.jpg') center center/cover;
     text-align: center;
     color: white;
-    box-shadow: inset 0 0 0 1000px rgba(0, 16, 0, 0.5);
+    box-shadow: inset 0 0 0 1000px rgba(0, 16, 0, 0.75);
   }
   div {
     max-width: 900px;
