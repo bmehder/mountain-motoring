@@ -15,31 +15,50 @@
 
     <h4>Friday, September 10, 2021</h4>
     <p>
-      A shorter version of "One Lap of the Mountains". Like the original,
-      extremely popular "One Lap of the Mountains", this event is a mountain
-      driving experience beginning at the Kelsey-Hutchinson Park on Pine Street,
-      traveling backroads to a lunch stop, and then returning by a different
-      route to Highlands. The round-trip mileage of the tour is around 80 miles.
+      A shorter version of “One Lap of the Mountains”. Like the original,
+      extremely popular “One Lap of the Mountains”, this event is a mountain
+      driving experience beginning at the Kelsey-Hutchinson Park on Pine Street.
+      After a complementary hot breakfast, we will travel the back roads with a
+      rest stop, and then return by a different route to Highlands. The
+      round-trip mileage of the tour is around 80 to 100 miles and returning to
+      Highlands in time for lunch, shopping and enjoying the afternoon in the
+      Town of Highlands.
     </p>
     <p>
-      Drivers are divided into two groups. The first group will be for drivers
-      who want a more spirited drive and a faster pace. The second group will
-      have a slower pace that allows for enjoying automobile, road, and nature
-      in harmony. Participants will receive a dash plaque, two HMF hats, and the
-      2021 HMF poster.
+      This shorter drive may be more appealing to those with the “classic cars”.
+      Registrants will be eligible for a drawing to win a Porsche Experience
+      ticket. Participants will also receive a “Mountain Motoring” dash plaque
+      along with two HMF hats.
     </p>
-    <p><em>Registration is required.</em></p>
+    <ul>
+      <li>9:00am - Complimentary Breakfast</li>
+      <li>9:45am - Drivers’ Meeting</li>
+      <li>10:00am - Depart K-H Park</li>
+      <li>1:00pm - All cars have returned to Highlands</li>
+    </ul>
+    <p><em>Registration is required. $180</em></p>
 
     <h4>Saturday, September 11, 2021</h4>
     <p>
-      "One Lap of the Mountains Grande" returns to its traditional format and
-      will roll out of Highlands in two groups on an approximate 175 mile
-      driving adventure. The carefully curated route will travel the area’s
-      winding mountain roads stopping for lunch before returning to Highlands
-      via a different route. Participants will receive a dash plaque, two HMF
-      hats, and the 2021 HMF poster.
+      “One Lap of the Mountains” returns to its traditional format and will roll
+      out of Kelsey-Hutchinson Park on Pine Street in two groups on an
+      approximate 175 mile driving adventure. The carefully curated route will
+      travel the area's winding mountain roads stopping for lunch, where
+      participants are on their own to order from a diverse menu, before
+      returning to Highlands via a different route.
     </p>
-    <p><em>Registration is required.</em></p>
+    <p>
+      Registrants will be eligible for a drawing to win a Porsche Experience
+      ticket. Participants will also receive a “Mountain Motoring” dash plaque
+      and two HMF hats.
+    </p>
+    <ul>
+      <li>8:00am - Drivers’ Meeting</li>
+      <li>8:15am - Depart K-H Park</li>
+      <li>4:00pm - All cars have returned to Highlands</li>
+    </ul>
+    <p><em>Registration is required. $180</em></p>
+    <p><em>Mountain Motoring Drive Bundle - $320</em></p>
 
     <a
       href="https://highlandsmotoringfestival.com/2021-mountain-motoring-events/"
@@ -60,12 +79,17 @@
 
     <h4>Sunday, September 12, 2021 (8am - 12pm)</h4>
     <p>
-      High Octane is <strong>open to all</strong> "interesting cars" and
+      High Octane is <strong> open to all cars</strong> and
       <strong>free to participants</strong>. The open format allows cars to come
-      and go at their convenience. This will be a fun, laid back event with a
-      focus on car owners and visitors sharing their mutual interest in cars.
-      Come join us in the Kelsey-Hutchinson Park on Sunday morning.
+      and go at their convenience. This will be a fun event with a focus on car
+      owners and visitors sharing their mutual interest in cars. Coffee and
+      donuts will be available with donations accepted. Come join us in the
+      Kelsey-Hutchinson Park on Sunday morning. Participants will receive a
+      “Mountain Motoring” dash plaque.
     </p>
+    <ul>
+      <li>8:30am – 11:00am</li>
+    </ul>
     <p><em>No registration is required.</em></p>
   </div>
 </main>
@@ -112,6 +136,13 @@
     max-width: 840px;
     margin: 4em auto;
     background-color: #eee;
+  }
+
+  ul {
+    margin-left: 2em;
+    margin-bottom: 1em;
+    font-size: 18px;
+    color: #444;
   }
 
   @media (max-width: 840px) {

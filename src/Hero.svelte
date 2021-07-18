@@ -1,5 +1,11 @@
 <div class="hero">
-  <h2>Mountain Motoring</h2>
+  <!-- <h2>Mountain Motoring</h2> -->
+  <h1>
+    <img
+      src="/images/mountain-motoring-logo.png"
+      alt="Mountain Motoring Logo"
+    />
+  </h1>
 
   <h3>
     September 10th - 12th <br />
@@ -38,6 +44,9 @@
   @media (max-width: 840px) {
     h2 {
       font-size: 15vw;
+    }
+    img {
+      max-width: 300px;
     }
     h3 {
       margin-top: 1em;

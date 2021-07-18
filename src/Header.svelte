@@ -48,7 +48,7 @@
     gap: 2em;
     margin: 0;
     padding: 2em 3em;
-    background: #030;
+    background: #00525c;
     color: white;
   }
   nav {

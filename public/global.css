@@ -33,8 +33,8 @@ section {
   justify-content: center;
   align-items: center;
   min-height: 200px;
-  background-image: radial-gradient(#1a6626, #154e1c);
-  background: #030;
+  background: #00525c;
+  /* background: #030; */
   color: white;
 }
 article {
