@@ -47,7 +47,7 @@
   }
   a {
     margin-top: 1em;
-    color: #030;
+    color: #00525c;
   }
   a:hover {
     border-bottom: 1px solid #030;
