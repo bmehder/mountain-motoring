@@ -31,9 +31,9 @@
       along with two HMF hats.
     </p>
     <ul>
-      <li>9:00am - Complimentary Breakfast</li>
-      <li>9:45am - Drivers’ Meeting</li>
-      <li>10:00am - Depart K-H Park</li>
+      <li>8:00am - Breakfast / Check-in</li>
+      <li>9:00am - Drivers’ Meeting</li>
+      <li>9:30am - Departure</li>
       <li>1:00pm - All cars have returned to Highlands</li>
     </ul>
     <p><em>Registration is required. $180</em></p>
@@ -53,8 +53,9 @@
       and two HMF hats.
     </p>
     <ul>
-      <li>8:00am - Drivers’ Meeting</li>
-      <li>8:15am - Depart K-H Park</li>
+      <li>8:00am - Registration Check-in</li>
+      <li>8:15am - Driver's Meeting</li>
+      <li>8:30am - Departure</li>
       <li>4:00pm - All cars have returned to Highlands</li>
     </ul>
     <p><em>Registration is required. $180</em></p>
